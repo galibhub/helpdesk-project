@@ -1,16 +1,28 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# React Basics Q&A
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 1. What is JSX, and why is it used?
+**Answer:** JSX (JavaScript XML) is a syntax extension for JavaScript that looks like HTML. It is used in React to write UI components in a more readable way and makes code easier to understand.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 2. What is the difference between State and Props?
+**Answer:**  
+- **State**: Managed inside a component, can change over time.  
+- **Props**: Passed from parent to child, read-only.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 3. What is the useState hook, and how does it work?
+**Answer:** `useState` is a React hook that lets you add state to a functional component. It returns a state variable and a function to update it.
+
+---
+
+## 4. How can you share state between components in React?
+**Answer:** By lifting the state up to the nearest common parent and passing it down as props, or by using Context API/State management libraries.
+
+---
+
+## 5. How is event handling done in React?
+**Answer:** Event handling is done using camelCase syntax (e.g., `onClick`, `onChange`) with functions passed as event handlers.
