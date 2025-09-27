@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           <div>
             <h4 className="text-white font-semibold mb-2">Company</h4>
-            <ul className="space-y-1 text-sm ">
+            <ul className="space-y-4 text-sm ">
               <li>About Us</li>
               <li>Our Mission</li>
               <li>Contact Saled</li>
@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
           <div>
             <h4 className="text-white font-semibold mb-2">Services</h4>
-            <ul className="space-y-1 text-sm">
+            <ul className="space-y-4 text-sm">
               <li>Product & Services</li>
               <li>Customer Stories</li>
               <li>Download Apps</li>
@@ -33,19 +33,19 @@ const Footer = () => {
           </div>
           <div>
             <h4 className="text-white font-semibold mb-2">Information</h4>
-            <ul className="space-y-1 text-sm">
+            <ul className="space-y-4 text-sm">
               <li>Privacy Policy</li>
               <li>Terms & Conditions</li>
               <li>Join Us</li>
             </ul>
           </div>
-          <div>
+          <div className="">
             <h4 className="text-white font-semibold mb-2">Social Links</h4>
-            <ul className="space-y-1 text-sm">
-              <li>@CS — Ticket System</li>
-              <li>@CS — Ticket System</li>
-              <li>@CS — Ticket System</li>
-              <li>support@cst.com</li>
+            <ul className="space-y-4 text-sm ml-2">
+               <li className="flex gap-1"><img src="https://i.ibb.co.com/CsQkS6Hr/twitter.png" alt="" /><span className="mr-2">@CS — Ticket System</span></li>
+              <li className="flex gap-1"><img src="https://i.ibb.co.com/ynPzC3rW/linkedin.png" alt="" /><span className="mr-2">@CS — Ticket System</span></li>
+              <li className="flex gap-1"><img src="https://i.ibb.co.com/WNdnk3LN/facebook.png" alt="" /><span className="mr-2">@CS — Ticket System</span></li>
+              <li className="flex gap-1"><img src="https://i.ibb.co.com/RGZWdjgt/email.png" alt="" /> <span className="ml-1">support@cst.com</span></li>
             </ul>
           </div>
         </div>
